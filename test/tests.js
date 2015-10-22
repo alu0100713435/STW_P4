@@ -53,6 +53,13 @@ describe("Test Conversor", function() {
 
 var assert = chai.assert;
 
+describe('template', function() {
+  it('should expose the templates to __html__', function() {
+    document.body.innerHTML = __html__['template.html'];
+    expect(document.getElementById('tpl')).toBeDefined();
+  })
+})
+
 suite('temperature', function() {
     setup(function(){
       if (typeof __html__ !== 'undefined') {
