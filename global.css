@@ -1,0 +1,32 @@
+th, td      { vertical-align: top; text-align: right; font-size:large; }     /* Don't center table cells  */
+#converted  { color: black; font-weight: bold; font-size:large;          }     /* Calculated values in bold */
+input       { 
+              text-align: right;       /* Align input to the right  */
+              border: none; 
+              border-radius: 20px 20px 20px 20px;
+              padding: 5px  5px;
+              font-size:large;       }
+body
+{
+ background-color:#F2F2F2; 
+ font-size:large;
+ font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: "sans-serif", cursive;
+    background: #585858;
+    padding: 5px 15px;
+    color: black;
+    display:inline-block;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    left: 50%;
+    margin-top: 5%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+p{
+    text-align: center;   
+}
