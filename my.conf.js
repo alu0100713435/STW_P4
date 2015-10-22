@@ -14,14 +14,14 @@ module.exports = function(config) {
     },
 
     preprocessors: {
-          'tests/test.html': ['html2js']
+          'test/index.html': ['html2js']
     },
 
 
     // list of files / patterns to load in the browser
     files: [
-      'tests/test.html',
-      'tests/*.js',
+      'test/test.html',
+      'test/*.js',
       'temperature.js'
     ],
 
