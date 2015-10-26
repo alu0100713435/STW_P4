@@ -5,11 +5,11 @@ module.exports = function(config) {
     basePath: '',
 
     // frameworks to use
-    frameworks: ['mocha'],
+    frameworks: ['mocha','chai'],
 
     client: {
           mocha: {
-            ui: 'tdd'
+            ui: 'bdd'
           }
     },
 
@@ -21,6 +21,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'test/test.html',
+      '*.js'
       'test/*.js',
       'temperature.js'
     ],
@@ -76,5 +77,9 @@ module.exports = function(config) {
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
     singleRun: false
+    
+    // Concurrency level
+    // how many browser should be started simultanous
+    concurrency: Infinity
   });
 };

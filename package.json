@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alu0100713435/STW_P3.git"
+    "url": "git+https://github.com/alu0100713435/STW_P4.git"
   },
   "keywords": [
     "regexp"
@@ -16,9 +16,9 @@
   "author": "Noel Padron",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alu0100713435/STW_P3/issues"
+    "url": "https://github.com/alu0100713435/STW_P4/issues"
   },
-  "homepage": "https://github.com/alu0100713435/STW_P3#readme",
+  "homepage": "https://github.com/alu0100713435/STW_P4#readme",
   "devDependencies": {
     "chai": "^3.3.0",
     "del": "^2.0.2",
@@ -28,7 +28,13 @@
     "gulp-minify-html": "^1.0.4",
     "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6",
+    "karma-mocha": "*",
+    "karma-chai": "*",
     "karma": "^0.13.11",
+    "karma-html2js-preprocessor": "*",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-firefox-launcher": "*",
     "mocha": "^2.3.3"
+    "html2js": "^0.2.0"
   }
 }
