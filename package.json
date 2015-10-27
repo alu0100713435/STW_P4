@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JavierPestanoRon/TemperatureConverter2.git"
+    "url": "git+https://github.com/alu0100713435/STW_P4.git"
   },
   "keywords": [
     "regexp"
@@ -19,9 +19,9 @@
   "author": "Javier Pestano Ron",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JavierPestanoRon/TemperatureConverter2/issues"
+    "url": "https://github.com/alu0100713435/STW_P4/issues"
   },
-  "homepage": "https://github.com/JavierPestanoRon/TemperatureConverter2#readme",
+  "homepage": "https://github.com/alu0100713435/STW_P4#readme",
   "devDependencies": {
     "batch": "^0.5.3",
     "chai": "*",
