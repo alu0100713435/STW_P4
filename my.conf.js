@@ -17,7 +17,6 @@ module.exports = function(config) {
           'test/index.html': ['html2js']
     },
 
-
     // list of files / patterns to load in the browser
     files: [
       'test/test.html',
