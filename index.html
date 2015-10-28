@@ -6,6 +6,7 @@
      <link href="global.css" rel="stylesheet" type="text/css">
 
      <script type="text/javascript" src="temperature.js"></script>
+     <script type="text/javascript" src="webworker.js"></script>
   </head>
   <body>
     <h1>Conversor de Temperaturas</h1>
@@ -19,7 +20,7 @@
           <th>Temperatura converitda:</th>
         <td><span class="output" id="converted"></span></td>
       </tr>
-      <button id="boton" onclick="startWorker()" >Start Worker</button>
     </table>
+    <div align="center"><button id="boton" onclick="startWorker()" >Web Worker</button></div>
   </body>
 </html>
