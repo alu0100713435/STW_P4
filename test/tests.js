@@ -20,31 +20,31 @@ describe("Test Conversor", function() {
       expect(converted.innerHTML).to.equal("32.0 Farenheit");
     });
     
-    it("Cuarta: Probando la funcion calculate", function() {
+    it("Cuarta: Probando la funcion calculate (F to C)", function() {
       original.value = "32F";
       calculate();
       expect(converted.innerHTML).to.equal("0.0 Celsius");
     });
     
-    it("Cuarta: Probando la funcion calculate", function() {
+    it("Quinta: Probando la funcion calculate (F to C con flotante negativo)", function() {
       original.value = "32e-2F";
       calculate();
       expect(converted.innerHTML).to.equal("-16.9 Celsius");
     });
     
-    it("Cuarta: Probando la funcion calculate", function() {
+    it("Sexta: Probando la funcion calculate (C to F con flotante negativo)", function() {
       original.value = "32e-2C";
       calculate();
       expect(converted.innerHTML).to.equal("34.9 Farenheit");
     });
     
-    it("Cuarta: Probando la funcion calculate", function() {
+    it("Septima: Probando la funcion calculate (C to F con flotante positivo)", function() {
       original.value = "32e2C";
       calculate();
       expect(converted.innerHTML).to.equal("1184.0 Farenheit");
     });
     
-    it("Cuarta: Probando la funcion calculate", function() {
+    it("Octava: Probando la funcion calculate (error)", function() {
       original.value = "3ju";
       calculate();
       expect(converted.innerHTML).to.equal("ERROR! Prueba con algo como esto '-4.2C' ");
