@@ -8,6 +8,10 @@ Pruebas con karma, travis, mas webworker.
 
 http://alu0100713435.github.io/STW_P4/index
 
+## Enlace a travis ##
+
+https://travis-ci.org/alu0100713435/STW_P4
+
 ## Enlace a mi pagina de la asignatura SYTW ##
 
 http://alu0100713435.github.io/
