@@ -4,17 +4,11 @@
   "description": "Temperature converter",
   "main": "temperature.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run",
-    "testf": "mocha test",
-    "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/lib/chai.js",
-    "blanket": "curl https://raw.githubusercontent.com/alex-seville/blanket/master/dist/qunit/blanket.min.js -o test/lib/blanket.js",
-    "mochablanket": "curl https://raw.githubusercontent.com/alex-seville/blanket/master/src/adapters/mocha-blanket.js -o test/lib/mocha-blanket.js",
-    "sinon": "curl http://sinonjs.org/releases/sinon-1.17.1.js -o test/lib/sinon-1.17.1.js",
-    "index": "curl https://raw.githubusercontent.com/dhg/Skeleton/master/index.html -o index.html",
-    "normalize": "curl https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css -o assets/css/normalize.css",
-    "skeleton": "curl https://raw.githubusercontent.com/dhg/Skeleton/master/css/skeleton.css -o assets/css/skeleton.css",
-    "customcss": "touch assets/css/custom.css",
-    "favicon": "curl https://raw.githubusercontent.com/dhg/Skeleton/master/images/favicon.png -o assets/images/favicon.png"
+    "test": "test"
+  },
+  "scripts": {
+    "test": "open  http://localhost:3000/test/index.html",
+    "Karma": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
   },
   "repository": {
     "type": "git",
