@@ -19,17 +19,17 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/test.html',
-      '*.js'
+      'webworker.js',
       'test/*.js',
-      'temperature.js'
       'test/index.html'
     ],
 
 
     // list of files to exclude
     exclude: [
-
+        'gulpfile.js',
+        'static-server.js',
+        'temperature.js'
     ],
 
 
