@@ -7,7 +7,7 @@
     "test": "node static-server"
   },
   "scripts": {
-    "test": "open  http://localhost:3000/tests/index.html",
+    "test": "open  http://localhost:3000/test/index.html",
     "Karma": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
   },
   "repository": {
