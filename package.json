@@ -1,12 +1,13 @@
 {
   "name": "temperatureconverter",
   "version": "0.0.1",
-  "description": "conversor de temperatura",
+  "description": "Temperature converter",
   "main": "temperature.js",
   "scripts": {
     "test": "node static-server"
   },
   "scripts": {
+    "test": "open  http://localhost:3000/tests/index.html",
     "Karma": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
   },
   "repository": {
@@ -16,7 +17,7 @@
   "keywords": [
     "regexp"
   ],
-  "author": "Javier Pestano Ron",
+  "author": "Noel Padron Diaz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alu0100713435/STW_P4/issues"
