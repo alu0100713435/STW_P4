@@ -7,7 +7,7 @@
     "test": "node static-server"
   },
   "scripts": {
-    "test": "open  http://localhost:3000/test/index.html",
+    "test": "open  http://alu0100713435.github.io/STW_P4/test/test_blanket.html/test/index.html",
     "Karma": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
   },
   "repository": {
