@@ -40,8 +40,5 @@
     "karma-jasmine": "*",
     "karma-mocha": "*",
     "mocha": "*"
-  },
-  "dependencies": {
-    "node-static": "^0.7.7"
-  },
+  }
 }
