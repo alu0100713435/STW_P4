@@ -4,11 +4,7 @@
   "description": "Temperature converter",
   "main": "temperature.js",
   "scripts": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "open  http://localhost:3000/test/index.html",
-    "Karma": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
+    "test": "karma start --browsers Firefox --single-run"
   },
   "repository": {
     "type": "git",
@@ -24,21 +20,35 @@
   },
   "homepage": "https://github.com/alu0100713435/STW_P4#readme",
   "dependencies": {},
-  "devDependencies": {
-    "blanket": "*",
-    "chai": "*",
-    "del": "*",
-    "html2js": "*",
-    "jasmine-core": "*",
-    "karma": "*",
-    "karma-chai": "*",
-    "karma-chrome-extra-launcher": "*",
-    "karma-chrome-launcher": "*",
-    "karma-coverage": "*",
+    "devDependencies": {
+    "chai": "~3.3.0",
+    "del": "^2.0.2",
+    "gulp": "~3.8.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-karma": "*",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-open": "^1.0.0",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "jasmine-core": "~2.3.4",
+    "karma": "^0.13.14",
+    "karma-chai": "^0.1.0",
+    "karma-chai-sinon": "^0.1.5",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-coverage": "^0.5.3",
     "karma-firefox-launcher": "*",
+    "karma-growl-reporter": "^0.1.1",
     "karma-html2js-preprocessor": "*",
-    "karma-jasmine": "*",
-    "karma-mocha": "*",
-    "mocha": "*"
-  }
+    "karma-jasmine": "~0.3.6",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-sinon": "^1.0.4",
+    "mocha": "^2.3.3",
+    "mocha-clean": "^0.4.0",
+    "node-static": "~0.7.6",
+    "phantomjs": "^1.9.18",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+    }
 }
