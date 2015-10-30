@@ -23,6 +23,7 @@ module.exports = function(config) {
       '*.js'
       'test/*.js',
       'temperature.js'
+      'test/index.html'
     ],
 
 
