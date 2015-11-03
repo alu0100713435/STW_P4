@@ -29,7 +29,7 @@ module.exports = function(config) {
     exclude: [
         'gulpfile.js',
         'static-server.js',
-        'temperature.js'
+        //'temperature.js'
     ],
 
 
