@@ -1,4 +1,4 @@
-/*var expect = chai.expect;
+var expect = chai.expect;
 
 describe("Test Conversor", function() {
 
@@ -49,8 +49,8 @@ describe("Test Conversor", function() {
       calculate();
       expect(converted.innerHTML).to.equal("ERROR! Prueba con algo como esto '-4.2C' ");
     });
-});*/
-
+});
+/*
 var assert = chai.assert;
 
 suite('temperature', function() {
