@@ -2,7 +2,7 @@ var expect = chai.expect;
 
 describe("Test Conversor", function() {
 
-  //var converted = document.getElementById("converted");
+  var converted = document.getElementById("converted");
 
     it("Primera: 32F", function() {
       var t = new Temperatura(32,"F");
